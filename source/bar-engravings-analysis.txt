@@ -1,0 +1,40 @@
+Bar Engraving Character Analysis
+
+Physical Characteristics:
+- Characters appear etched/engraved into curved surface
+- Character height: approximately 1/3 of bar width
+- Consistent stroke width throughout
+- Characters flow horizontally along curve
+- Slight vertical compression due to curved surface
+
+Character Properties:
+1. Base Forms
+- Angular geometric shapes combined with curved elements
+- Characters appear to be part of a unified writing system
+- Consistent baseline alignment despite curved surface
+- Possible right-to-left or left-to-right directionality
+
+2. Stroke Analysis
+- Primary strokes: thin, precise lines
+- Secondary elements: smaller geometric shapes
+- Junction points: clean, angular connections
+- Terminal points: sharp, defined endings
+
+3. Character Components
+- Linear elements with geometric endings
+- Small circular or dot-like elements
+- Angular connections between strokes
+- Possible diacritical or modifier marks
+
+4. Pattern Observations
+- Repeating geometric elements
+- Consistent character spacing
+- Possible syllabic or logographic system
+- Characters maintain readability despite curved surface
+
+5. Font Development Notes
+- Need to account for curved surface distortion in reference images
+- Maintain consistent stroke width in digital recreation
+- Preserve angular precision of connections
+- Consider both flat and curved display contexts
+- Design characters to work in both positive and negative (engraved) forms

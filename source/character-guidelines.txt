@@ -1,0 +1,38 @@
+Character Construction Guidelines
+
+1. Base Structure
+- Start with primary circular base
+- Establish central axis
+- Define connection points
+
+2. Orbital Elements
+- Layer circular paths concentrically
+- Maintain consistent spacing
+- Add directional indicators
+
+3. Node Placement
+- Position primary nodes at key intersections
+- Secondary nodes at path transitions
+- Tertiary nodes for detail points
+
+4. Path Construction
+- Use Bézier curves for flowing lines
+- Maintain smooth transitions
+- Balance thick and thin strokes
+
+5. Detail Elements
+- Add internal geometric patterns
+- Include orbital markers
+- Place decorative elements
+
+6. Character Spacing
+- Define side bearings
+- Account for overlapping elements
+- Establish kerning pairs
+
+Reference Characters:
+A: Primary orbital with three nodes
+B: Dual circular base with connecting path
+C: Single base with extended orbital
+D: Complex node network with multiple paths
+E: Geometric base with radiating elements

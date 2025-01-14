@@ -1,0 +1,33 @@
+CARET Font Specifications
+
+Base Metrics:
+- Em size: 1000 units
+- Ascender height: 750 units
+- Descender depth: -250 units
+- x-height: 500 units
+
+Stroke Characteristics:
+- Primary stroke width: 80 units
+- Secondary stroke width: 40 units
+- Orbital ring thickness: 60 units
+
+Special Features:
+1. Circular Bases
+- Diameter: 400-600 units
+- Inner circle ratio: 0.6
+- Orbital ring spacing: 40 units
+
+2. Connecting Elements
+- Minimum curve radius: 100 units
+- Inter-character spacing: 200 units
+- Connection angle range: 15-75 degrees
+
+3. Node Points
+- Primary node diameter: 120 units
+- Secondary node diameter: 80 units
+- Tertiary node diameter: 40 units
+
+4. Decorative Elements
+- Orbital path thickness: 20 units
+- Radial line weight: 30 units
+- Geometric marker size: 60 units

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation Sequence Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meditation Sequence Generator</h1>
+        
+        <div class="sequence-info">
+            <h2>Meditation Flow</h2>
+            <div class="sequence-display">
+                ⎍ → ⎎ → ⎏ → ⎐ → ⎑ → ⎒ → ⎓ → ⎔ → ⎕
+            </div>
+            <p class="sequence-description">
+                The sequence flows through Opening, Flow, and Closing states, with manifestation occurring after the terminal is opened (⎏).
+            </p>
+        </div>
+
+        <div class="state-sections">
+            <div class="state-section">
+                <h2>Opening Phase</h2>
+                <div class="symbol-group">
+                    <div class="symbol-item" data-symbol="⎍">
+                        <span class="symbol">⎍</span>
+                        <span class="freq">396 Hz</span>
+                        <span class="desc">Open Activation</span>
+                    </div>
+                    <div class="symbol-item" data-symbol="⎎">
+                        <span class="symbol">⎎</span>
+                        <span class="freq">417 Hz</span>
+                        <span class="desc">Open Flow</span>
+                    </div>
+                    <div class="symbol-item" data-symbol="⎏">
+                        <span class="symbol">⎏</span>
+                        <span class="freq">528 Hz</span>
+                        <span class="desc">Open Terminal</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="state-section">
+                <h2>Flow Phase</h2>
+                <div class="symbol-group">
+                    <div class="symbol-item" data-symbol="⎐">
+                        <span class="symbol">⎐</span>
+                        <span class="freq">639 Hz</span>
+                        <span class="desc">Flow Activation</span>
+                    </div>
+                    <div class="symbol-item" data-symbol="⎑">
+                        <span class="symbol">⎑</span>
+                        <span class="freq">741 Hz</span>
+                        <span class="desc">Flow Flow</span>
+                    </div>
+                    <div class="symbol-item" data-symbol="⎒">
+                        <span class="symbol">⎒</span>
+                        <span class="freq">852 Hz</span>
+                        <span class="desc">Flow Terminal</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="state-section">
+                <h2>Closing Phase</h2>
+                <div class="symbol-group">
+                    <div class="symbol-item" data-symbol="⎓">
+                        <span class="symbol">⎓</span>
+                        <span class="freq">285 Hz</span>
+                        <span class="desc">Close Activation</span>
+                    </div>
+                    <div class="symbol-item" data-symbol="⎔">
+                        <span class="symbol">⎔</span>
+                        <span class="freq">174 Hz</span>
+                        <span class="desc">Close Flow</span>
+                    </div>
+                    <div class="symbol-item" data-symbol="⎕">
+                        <span class="symbol">⎕</span>
+                        <span class="freq">963 Hz</span>
+                        <span class="desc">Close Terminal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="audio-controls">
+            <audio id="audio-player" controls></audio>
+            <div class="controls">
+                <button id="play-btn">Start Sequence</button>
+                <button id="stop-btn" disabled>Stop</button>
+            </div>
+            <div class="progress-indicator">
+                <div class="current-symbol"></div>
+                <div class="current-state"></div>
+            </div>
+        </div>
+    </div>
+    <script src="meditation.js"></script>
+</body>
+</html>
