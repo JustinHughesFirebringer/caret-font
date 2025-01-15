@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARET Character Flashcards</title>
+    <style>
+        @media print {
+            .flashcard {
+                page-break-after: always;
+                height: 100vh;
+                margin: 0;
+                padding: 2cm;
+                box-sizing: border-box;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        .flashcard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2cm;
+            box-sizing: border-box;
+            min-height: 100vh;
+            background: #2a2a2a;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .character {
+            font-size: 120px;
+            margin: 20px 0;
+            color: #81C784;
+        }
+
+        .pronunciation {
+            font-size: 36px;
+            margin: 20px 0;
+            color: #4CAF50;
+        }
+
+        .function {
+            font-size: 24px;
+            margin: 20px 0;
+            text-align: center;
+            max-width: 80%;
+            color: #aaa;
+        }
+
+        .category {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .set {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .set .characters {
+            font-size: 72px;
+            margin: 20px 0;
+            letter-spacing: 0.1em;
+            color: #81C784;
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        ol {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        @media screen {
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Instructions Page -->
+        <div class="flashcard">
+            <h1>CARET Character Flashcards</h1>
+            <div style="font-size: 24px; margin: 40px 0;">
+                <p><strong>How to Use These Flashcards:</strong></p>
+                <ol>
+                    <li>Print double-sided if possible</li>
+                    <li>Cut along page boundaries</li>
+                    <li>Practice both individual characters and sets</li>
+                    <li>Focus on both pronunciation and function</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Primary Matrix Characters -->
+        
+        <!-- Vertical Lines -->
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Vertical Line</div>
+            <div class="character">⎪</div>
+            <div class="pronunciation">vee</div>
+            <div class="function">Energy flow vertical line</div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Vertical Line</div>
+            <div class="character">⎢</div>
+            <div class="pronunciation">kee</div>
+            <div class="function">State transformation vertical line</div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Vertical Line</div>
+            <div class="character">⎜</div>
+            <div class="pronunciation">lee</div>
+            <div class="function">Containment vertical line</div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Vertical Line</div>
+            <div class="character">⎮</div>
+            <div class="pronunciation">mee</div>
+            <div class="function">Process vertical line</div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Vertical Line</div>
+            <div class="character">⎸</div>
+            <div class="pronunciation">nee</div>
+            <div class="function">Interface vertical line</div>
+        </div>
+
+        <!-- Top Curves -->
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Top Curve</div>
+            <div class="character">⎧</div>
+            <div class="pronunciation">tah</div>
+            <div class="function">Energy flow top curve</div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Top Curve</div>
+            <div class="character">⎡</div>
+            <div class="pronunciation">rah</div>
+            <div class="function">State transformation top curve</div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Primary Matrix - Top Curve</div>
+            <div class="character">⎛</div>
+            <div class="pronunciation">pah</div>
+            <div class="function">Containment top curve</div>
+        </div>
+
+        <!-- Character Sets -->
+        <div class="flashcard">
+            <div class="category">Circuit Open Set</div>
+            <div class="set">
+                <div class="characters">⎍⎎⎏</div>
+                <div class="pronunciation">soo-foo-too</div>
+                <div class="function">Complete circuit opening sequence</div>
+            </div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Circuit Flow Set</div>
+            <div class="set">
+                <div class="characters">⎐⎑⎒</div>
+                <div class="pronunciation">sah-fah-tah</div>
+                <div class="function">Energy flow control sequence</div>
+            </div>
+        </div>
+
+        <!-- Node Characters -->
+        <div class="flashcard">
+            <div class="category">Primary Node Set</div>
+            <div class="set">
+                <div class="characters">⊕⊗⊘⊙</div>
+                <div class="pronunciation">plo-pli-pla-ple</div>
+                <div class="function">Core node indicators (first set)</div>
+            </div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Primary Node Set</div>
+            <div class="set">
+                <div class="characters">⊚⊛⊜⊝</div>
+                <div class="pronunciation">plu-ply-pln-plm</div>
+                <div class="function">Core node indicators (second set)</div>
+            </div>
+        </div>
+
+        <!-- Connection Elements -->
+        <div class="flashcard">
+            <div class="category">Linear Connectors</div>
+            <div class="set">
+                <div class="characters">⋈⋉⋊</div>
+                <div class="pronunciation">lin-len-lon</div>
+                <div class="function">Basic connection elements (first set)</div>
+            </div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Linear Connectors</div>
+            <div class="set">
+                <div class="characters">⋋⋌⋍</div>
+                <div class="pronunciation">lan-lun-lyn</div>
+                <div class="function">Basic connection elements (second set)</div>
+            </div>
+        </div>
+
+        <!-- Field Elements -->
+        <div class="flashcard">
+            <div class="category">Field Indicators</div>
+            <div class="set">
+                <div class="characters">⍁⍂⍃⍄</div>
+                <div class="pronunciation">fid-fed-fad-fud</div>
+                <div class="function">Field state markers (first set)</div>
+            </div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Field Indicators</div>
+            <div class="set">
+                <div class="characters">⍅⍆⍇⍈</div>
+                <div class="pronunciation">fod-fyd-frd-fnd</div>
+                <div class="function">Field state markers (second set)</div>
+            </div>
+        </div>
+
+        <!-- Pattern Sets -->
+        <div class="flashcard">
+            <div class="category">Energy Flow Pattern</div>
+            <div class="set">
+                <div class="characters">⎧⎪⎨⎪⎩</div>
+                <div class="pronunciation">tah-vee-toh-vee-tay</div>
+                <div class="function">Complete energy circuit formation</div>
+            </div>
+        </div>
+
+        <div class="flashcard">
+            <div class="category">Field Generation Pattern</div>
+            <div class="set">
+                <div class="characters">⎛⎜⎝</div>
+                <div class="pronunciation">pah-lee-pay</div>
+                <div class="function">Field opening sequence</div>
+            </div>
+        </div>
+
+        <!-- Practice Page -->
+        <div class="flashcard">
+            <h2>Practice Combinations</h2>
+            <div style="font-size: 24px; margin: 40px 0;">
+                <p><strong>Basic Elements:</strong></p>
+                <div style="font-size: 36px; margin: 20px 0;">
+                    ⎧ + ⎪ = Upper energy flow<br>
+                    (tah + vee)
+                </div>
+                <p><strong>Common Sequences:</strong></p>
+                <div style="font-size: 36px; margin: 20px 0;">
+                    ⎧⎪⎨ = Opening sequence<br>
+                    (tah-vee-toh)
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
